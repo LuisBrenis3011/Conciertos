@@ -8,12 +8,12 @@ package vista;
  *
  * @author ALGS
  */
-public class conciertos extends javax.swing.JPanel {
+public class PnlConciertos extends javax.swing.JPanel {
 
     /**
      * Creates new form conciertos
      */
-    public conciertos() {
+    public PnlConciertos() {
         initComponents();
     }
 
@@ -32,15 +32,15 @@ public class conciertos extends javax.swing.JPanel {
         BtnCerrarSesion = new javax.swing.JButton();
 
         setMinimumSize(new java.awt.Dimension(450, 620));
-        setPreferredSize(new java.awt.Dimension(480, 620));
+        setPreferredSize(new java.awt.Dimension(450, 620));
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial Black", 0, 24)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Menu Principal");
         jLabel1.setToolTipText("");
 
         BtnComprarEntradas.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        BtnComprarEntradas.setText("<html><b>Comprar entradas</b><br>Adquiere nuevas entradas</html>");
+        BtnComprarEntradas.setText("<html><center><b>Comprar entradas</b></center><br>Adquiere nuevas entradas</html>");
         BtnComprarEntradas.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(51, 153, 0), 2, true));
         BtnComprarEntradas.setMinimumSize(new java.awt.Dimension(325, 135));
         BtnComprarEntradas.setPreferredSize(new java.awt.Dimension(325, 135));
@@ -51,7 +51,7 @@ public class conciertos extends javax.swing.JPanel {
         });
 
         BtnVerEntradas.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        BtnVerEntradas.setText("<html><b>Mis entradas</b><br>Ver entradas compradas</html>");
+        BtnVerEntradas.setText("<html><center><b>Mis entradas</b></center><br>Ver entradas compradas</html>");
         BtnVerEntradas.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(51, 153, 0), 2, true));
         BtnVerEntradas.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         BtnVerEntradas.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -63,7 +63,7 @@ public class conciertos extends javax.swing.JPanel {
         });
 
         BtnCerrarSesion.setBackground(new java.awt.Color(255, 102, 102));
-        BtnCerrarSesion.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        BtnCerrarSesion.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
         BtnCerrarSesion.setForeground(new java.awt.Color(255, 255, 255));
         BtnCerrarSesion.setText("Cerrar Sesión");
         BtnCerrarSesion.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 0, true));
@@ -74,18 +74,18 @@ public class conciertos extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(74, 74, 74)
+                .addGap(66, 66, 66)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(BtnVerEntradas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(BtnComprarEntradas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(BtnCerrarSesion, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(81, Short.MAX_VALUE))
+                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(80, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(40, 40, 40)
+                .addGap(42, 42, 42)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(53, 53, 53)
                 .addComponent(BtnComprarEntradas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -93,7 +93,7 @@ public class conciertos extends javax.swing.JPanel {
                 .addComponent(BtnVerEntradas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(50, 50, 50)
                 .addComponent(BtnCerrarSesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(55, Short.MAX_VALUE))
+                .addContainerGap(53, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
