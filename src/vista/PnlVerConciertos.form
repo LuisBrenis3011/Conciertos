@@ -24,15 +24,15 @@
           <Group type="102" attributes="0">
               <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="BtnNombre1" min="-2" max="-2" attributes="0"/>
-                  <Component id="BtnNombre3" min="-2" max="-2" attributes="0"/>
-                  <Component id="BtnNombre2" min="-2" max="-2" attributes="0"/>
+                  <Component id="BtnConcierto1" min="-2" max="-2" attributes="0"/>
+                  <Component id="BtnConcierto3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BtnConcierto2" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="37" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="32767" attributes="0"/>
-              <Component id="LblNombre" min="-2" max="-2" attributes="0"/>
+              <Component id="LblConciertos" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -41,20 +41,20 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-              <Component id="LblNombre" min="-2" max="-2" attributes="0"/>
+              <Component id="LblConciertos" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="73" max="32767" attributes="0"/>
-              <Component id="BtnNombre1" min="-2" max="-2" attributes="0"/>
+              <Component id="BtnConcierto1" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
-              <Component id="BtnNombre2" min="-2" max="-2" attributes="0"/>
+              <Component id="BtnConcierto2" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
-              <Component id="BtnNombre3" min="-2" max="-2" attributes="0"/>
+              <Component id="BtnConcierto3" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="BtnNombre2">
+    <Component class="javax.swing.JButton" name="BtnConcierto2">
       <Properties>
         <Property name="text" type="java.lang.String" value="CONCIERTO 2"/>
         <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -65,10 +65,10 @@
         <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="BtnNombre2"/>
       </AccessibilityProperties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnNombre2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnConcierto2ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="BtnNombre3">
+    <Component class="javax.swing.JButton" name="BtnConcierto3">
       <Properties>
         <Property name="text" type="java.lang.String" value="CONCIERTO 3"/>
         <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -79,7 +79,7 @@
         <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="BtnNombre3"/>
       </AccessibilityProperties>
     </Component>
-    <Component class="javax.swing.JButton" name="BtnNombre1">
+    <Component class="javax.swing.JButton" name="BtnConcierto1">
       <Properties>
         <Property name="text" type="java.lang.String" value="CONCIERTO 1"/>
         <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -90,10 +90,10 @@
         <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="BtnNombre1"/>
       </AccessibilityProperties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnNombre1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnConcierto1ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="LblNombre">
+    <Component class="javax.swing.JLabel" name="LblConciertos">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Arial Black" size="18" style="0"/>

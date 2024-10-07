@@ -26,34 +26,34 @@ public class PnlVerConciertos extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        BtnNombre2 = new javax.swing.JButton();
-        BtnNombre3 = new javax.swing.JButton();
-        BtnNombre1 = new javax.swing.JButton();
-        LblNombre = new javax.swing.JLabel();
+        BtnConcierto2 = new javax.swing.JButton();
+        BtnConcierto3 = new javax.swing.JButton();
+        BtnConcierto1 = new javax.swing.JButton();
+        LblConciertos = new javax.swing.JLabel();
 
         setPreferredSize(new java.awt.Dimension(400, 620));
 
-        BtnNombre2.setText("CONCIERTO 2");
-        BtnNombre2.setPreferredSize(new java.awt.Dimension(325, 90));
-        BtnNombre2.addActionListener(new java.awt.event.ActionListener() {
+        BtnConcierto2.setText("CONCIERTO 2");
+        BtnConcierto2.setPreferredSize(new java.awt.Dimension(325, 90));
+        BtnConcierto2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BtnNombre2ActionPerformed(evt);
+                BtnConcierto2ActionPerformed(evt);
             }
         });
 
-        BtnNombre3.setText("CONCIERTO 3");
-        BtnNombre3.setPreferredSize(new java.awt.Dimension(325, 90));
+        BtnConcierto3.setText("CONCIERTO 3");
+        BtnConcierto3.setPreferredSize(new java.awt.Dimension(325, 90));
 
-        BtnNombre1.setText("CONCIERTO 1");
-        BtnNombre1.setPreferredSize(new java.awt.Dimension(325, 90));
-        BtnNombre1.addActionListener(new java.awt.event.ActionListener() {
+        BtnConcierto1.setText("CONCIERTO 1");
+        BtnConcierto1.setPreferredSize(new java.awt.Dimension(325, 90));
+        BtnConcierto1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BtnNombre1ActionPerformed(evt);
+                BtnConcierto1ActionPerformed(evt);
             }
         });
 
-        LblNombre.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
-        LblNombre.setText("CONCIERTOS");
+        LblConciertos.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
+        LblConciertos.setText("CONCIERTOS");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -62,48 +62,48 @@ public class PnlVerConciertos extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(38, 38, 38)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(BtnNombre1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(BtnNombre3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(BtnNombre2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(BtnConcierto1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BtnConcierto3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BtnConcierto2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(37, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(LblNombre)
+                .addComponent(LblConciertos)
                 .addGap(131, 131, 131))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(LblNombre)
+                .addComponent(LblConciertos)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 73, Short.MAX_VALUE)
-                .addComponent(BtnNombre1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BtnConcierto1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(75, 75, 75)
-                .addComponent(BtnNombre2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BtnConcierto2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(76, 76, 76)
-                .addComponent(BtnNombre3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BtnConcierto3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(61, 61, 61))
         );
 
-        BtnNombre2.getAccessibleContext().setAccessibleName("BtnNombre2");
-        BtnNombre3.getAccessibleContext().setAccessibleName("BtnNombre3");
-        BtnNombre1.getAccessibleContext().setAccessibleName("BtnNombre1");
-        LblNombre.getAccessibleContext().setAccessibleName("LblNombre");
+        BtnConcierto2.getAccessibleContext().setAccessibleName("BtnNombre2");
+        BtnConcierto3.getAccessibleContext().setAccessibleName("BtnNombre3");
+        BtnConcierto1.getAccessibleContext().setAccessibleName("BtnNombre1");
+        LblConciertos.getAccessibleContext().setAccessibleName("LblNombre");
     }// </editor-fold>//GEN-END:initComponents
 
-    private void BtnNombre2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnNombre2ActionPerformed
+    private void BtnConcierto2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnConcierto2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_BtnNombre2ActionPerformed
+    }//GEN-LAST:event_BtnConcierto2ActionPerformed
 
-    private void BtnNombre1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnNombre1ActionPerformed
+    private void BtnConcierto1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnConcierto1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_BtnNombre1ActionPerformed
+    }//GEN-LAST:event_BtnConcierto1ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton BtnNombre1;
-    private javax.swing.JButton BtnNombre2;
-    private javax.swing.JButton BtnNombre3;
-    private javax.swing.JLabel LblNombre;
+    private javax.swing.JButton BtnConcierto1;
+    private javax.swing.JButton BtnConcierto2;
+    private javax.swing.JButton BtnConcierto3;
+    private javax.swing.JLabel LblConciertos;
     // End of variables declaration//GEN-END:variables
 }
