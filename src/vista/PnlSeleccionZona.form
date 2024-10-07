@@ -26,15 +26,15 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
-              <Component id="LblNombre" min="-2" max="-2" attributes="0"/>
+              <Component id="LblZonas" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace pref="39" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="BtnNombre1" min="-2" max="-2" attributes="0"/>
-                  <Component id="BtnNombre3" min="-2" max="-2" attributes="0"/>
-                  <Component id="BtnNombre2" min="-2" max="-2" attributes="0"/>
+                  <Component id="BtnZonaVip" min="-2" max="-2" attributes="0"/>
+                  <Component id="BtnZonaGeneral" min="-2" max="-2" attributes="0"/>
+                  <Component id="BtnZonaPreferencial" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
           </Group>
@@ -44,20 +44,20 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-              <Component id="LblNombre" min="-2" max="-2" attributes="0"/>
+              <Component id="LblZonas" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-              <Component id="BtnNombre1" min="-2" max="-2" attributes="0"/>
+              <Component id="BtnZonaVip" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
-              <Component id="BtnNombre2" min="-2" max="-2" attributes="0"/>
+              <Component id="BtnZonaPreferencial" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
-              <Component id="BtnNombre3" min="-2" max="-2" attributes="0"/>
+              <Component id="BtnZonaGeneral" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="97" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="LblNombre">
+    <Component class="javax.swing.JLabel" name="LblZonas">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Arial Black" size="18" style="0"/>
@@ -65,7 +65,7 @@
         <Property name="text" type="java.lang.String" value="SELECCIONAR ZONA"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="BtnNombre2">
+    <Component class="javax.swing.JButton" name="BtnZonaPreferencial">
       <Properties>
         <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;&lt;b&gt;ZONA PREFERENCIAL&lt;/b&gt;&lt;/center&gt;&lt;br&gt;Cantidad entradas: 200 | S/ 100&lt;/html&gt;"/>
         <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -73,7 +73,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="BtnNombre3">
+    <Component class="javax.swing.JButton" name="BtnZonaGeneral">
       <Properties>
         <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;&lt;b&gt;ZONA GENERAL&lt;/b&gt;&lt;/center&gt;&lt;br&gt;Cantidad entradas: 300 | S/ 50&lt;/html&gt;"/>
         <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -81,7 +81,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="BtnNombre1">
+    <Component class="javax.swing.JButton" name="BtnZonaVip">
       <Properties>
         <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;&lt;b&gt;ZONA VIP&lt;/b&gt;&lt;/center&gt;&lt;br&gt;Cantidad entradas: 100 | S/ 150&lt;/html&gt;"/>
         <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -89,7 +89,7 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnNombre1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnZonaVipActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

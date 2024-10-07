@@ -26,27 +26,27 @@ public class PnlSeleccionZona extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        LblNombre = new javax.swing.JLabel();
-        BtnNombre2 = new javax.swing.JButton();
-        BtnNombre3 = new javax.swing.JButton();
-        BtnNombre1 = new javax.swing.JButton();
+        LblZonas = new javax.swing.JLabel();
+        BtnZonaPreferencial = new javax.swing.JButton();
+        BtnZonaGeneral = new javax.swing.JButton();
+        BtnZonaVip = new javax.swing.JButton();
 
         setPreferredSize(new java.awt.Dimension(400, 620));
 
-        LblNombre.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
-        LblNombre.setText("SELECCIONAR ZONA");
+        LblZonas.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
+        LblZonas.setText("SELECCIONAR ZONA");
 
-        BtnNombre2.setText("<html><center><b>ZONA PREFERENCIAL</b></center><br>Cantidad entradas: 200 | S/ 100</html>");
-        BtnNombre2.setPreferredSize(new java.awt.Dimension(325, 90));
+        BtnZonaPreferencial.setText("<html><center><b>ZONA PREFERENCIAL</b></center><br>Cantidad entradas: 200 | S/ 100</html>");
+        BtnZonaPreferencial.setPreferredSize(new java.awt.Dimension(325, 90));
 
-        BtnNombre3.setText("<html><center><b>ZONA GENERAL</b></center><br>Cantidad entradas: 300 | S/ 50</html>");
-        BtnNombre3.setPreferredSize(new java.awt.Dimension(325, 90));
+        BtnZonaGeneral.setText("<html><center><b>ZONA GENERAL</b></center><br>Cantidad entradas: 300 | S/ 50</html>");
+        BtnZonaGeneral.setPreferredSize(new java.awt.Dimension(325, 90));
 
-        BtnNombre1.setText("<html><center><b>ZONA VIP</b></center><br>Cantidad entradas: 100 | S/ 150</html>");
-        BtnNombre1.setPreferredSize(new java.awt.Dimension(325, 90));
-        BtnNombre1.addActionListener(new java.awt.event.ActionListener() {
+        BtnZonaVip.setText("<html><center><b>ZONA VIP</b></center><br>Cantidad entradas: 100 | S/ 150</html>");
+        BtnZonaVip.setPreferredSize(new java.awt.Dimension(325, 90));
+        BtnZonaVip.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BtnNombre1ActionPerformed(evt);
+                BtnZonaVipActionPerformed(evt);
             }
         });
 
@@ -56,42 +56,42 @@ public class PnlSeleccionZona extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(95, 95, 95)
-                .addComponent(LblNombre)
+                .addComponent(LblZonas)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(39, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(BtnNombre1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(BtnNombre3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(BtnNombre2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(BtnZonaVip, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BtnZonaGeneral, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BtnZonaPreferencial, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(36, 36, 36))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(30, 30, 30)
-                .addComponent(LblNombre)
+                .addComponent(LblZonas)
                 .addGap(48, 48, 48)
-                .addComponent(BtnNombre1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BtnZonaVip, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(72, 72, 72)
-                .addComponent(BtnNombre2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BtnZonaPreferencial, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(77, 77, 77)
-                .addComponent(BtnNombre3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BtnZonaGeneral, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(97, Short.MAX_VALUE))
         );
 
         getAccessibleContext().setAccessibleName("PnlNombre");
     }// </editor-fold>//GEN-END:initComponents
 
-    private void BtnNombre1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnNombre1ActionPerformed
+    private void BtnZonaVipActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnZonaVipActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_BtnNombre1ActionPerformed
+    }//GEN-LAST:event_BtnZonaVipActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton BtnNombre1;
-    private javax.swing.JButton BtnNombre2;
-    private javax.swing.JButton BtnNombre3;
-    private javax.swing.JLabel LblNombre;
+    private javax.swing.JButton BtnZonaGeneral;
+    private javax.swing.JButton BtnZonaPreferencial;
+    private javax.swing.JButton BtnZonaVip;
+    private javax.swing.JLabel LblZonas;
     // End of variables declaration//GEN-END:variables
 }
