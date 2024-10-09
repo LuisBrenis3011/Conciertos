@@ -76,57 +76,78 @@
     </Component>
     <Component class="javax.swing.JLabel" name="LblHist1">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="12" style="0"/>
+          <Font name="Times New Roman" size="14" style="0"/>
         </Property>
         <Property name="horizontalAlignment" type="int" value="2"/>
-        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;head&gt;   &lt;style&gt;     div {       margin: 20px; /* Espacio alrededor del elemento div */     }   &lt;/style&gt; &lt;/head&gt; &lt;body&gt;   &lt;div&gt;     Entrada: Entrada&lt;br&gt;     Zona: Zona &lt;br&gt;     Estado: Estado   &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;"/>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;head&gt;   &lt;style&gt;     div {    margin: 20px;  background: white; }   &lt;/style&gt; &lt;/head&gt; &lt;body&gt;   &lt;div&gt;     &lt;b&gt;Entrada:  Entrada&lt;/b&gt;&lt;br&gt;     Zona: Zona &lt;br&gt;     Estado: Estado   &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-            <LineBorder/>
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder/>
           </Border>
         </Property>
         <Property name="horizontalTextPosition" type="int" value="0"/>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JLabel" name="LblHist4">
       <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="12" style="0"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;head&gt;   &lt;style&gt;     div {       margin: 20px; /* Espacio alrededor del elemento div */     }   &lt;/style&gt; &lt;/head&gt; &lt;body&gt;   &lt;div&gt;     Entrada: Entrada&lt;br&gt;     Zona: Zona &lt;br&gt;     Estado: Estado   &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;head&gt;   &lt;style&gt;     div {   margin: 20px;   }   &lt;/style&gt; &lt;/head&gt; &lt;body&gt;   &lt;div&gt;     &lt;b&gt;Entrada: Entrada&lt;/b&gt;&lt;br&gt;     Zona: Zona &lt;br&gt;     Estado: Estado   &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-            <LineBorder/>
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder/>
           </Border>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="LblHist3">
       <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="12" style="0"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;head&gt;   &lt;style&gt;     div {       margin: 20px; /* Espacio alrededor del elemento div */     }   &lt;/style&gt; &lt;/head&gt; &lt;body&gt;   &lt;div&gt;     Entrada: Entrada&lt;br&gt;     Zona: Zona &lt;br&gt;     Estado: Estado   &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;head&gt;   &lt;style&gt;     div {  margin: 20px;  }   &lt;/style&gt; &lt;/head&gt; &lt;body&gt;   &lt;div&gt;     &lt;b&gt;Entrada: Entrada&lt;/b&gt;&lt;br&gt;     Zona: Zona &lt;br&gt;     Estado: Estado   &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-            <LineBorder/>
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder/>
           </Border>
         </Property>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JLabel" name="LblHist2">
       <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="12" style="0"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;head&gt;   &lt;style&gt;     div {       margin: 20px; /* Espacio alrededor del elemento div */     }   &lt;/style&gt; &lt;/head&gt; &lt;body&gt;   &lt;div&gt;     Entrada: Entrada&lt;br&gt;     Zona: Zona &lt;br&gt;     Estado: Estado   &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;head&gt;   &lt;style&gt;     div { margin: 20px; }   &lt;/style&gt; &lt;/head&gt; &lt;body&gt;   &lt;div&gt;     &lt;b&gt;Entrada: Entrada&lt;/b&gt; &lt;br&gt;     Zona: Zona &lt;br&gt;     Estado: Estado   &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-            <LineBorder/>
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder/>
           </Border>
         </Property>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
   </SubComponents>
 </Form>

@@ -39,23 +39,27 @@ public class PnlMisEntradas extends javax.swing.JPanel {
         LblTitulo.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         LblTitulo.setText("Mis Entradas");
 
-        LblHist1.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        LblHist1.setBackground(new java.awt.Color(255, 255, 255));
+        LblHist1.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         LblHist1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        LblHist1.setText("<html> <head>   <style>     div {       margin: 20px; /* Espacio alrededor del elemento div */     }   </style> </head> <body>   <div>     Entrada: Entrada<br>     Zona: Zona <br>     Estado: Estado   </div> </body> </html>");
-        LblHist1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        LblHist1.setText("<html> <head>   <style>     div {    margin: 20px;  background: white; }   </style> </head> <body>   <div>     <b>Entrada:  Entrada</b><br>     Zona: Zona <br>     Estado: Estado   </div> </body> </html>");
+        LblHist1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         LblHist1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        LblHist4.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
-        LblHist4.setText("<html> <head>   <style>     div {       margin: 20px; /* Espacio alrededor del elemento div */     }   </style> </head> <body>   <div>     Entrada: Entrada<br>     Zona: Zona <br>     Estado: Estado   </div> </body> </html>");
-        LblHist4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        LblHist4.setBackground(new java.awt.Color(255, 255, 255));
+        LblHist4.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        LblHist4.setText("<html> <head>   <style>     div {   margin: 20px;   }   </style> </head> <body>   <div>     <b>Entrada: Entrada</b><br>     Zona: Zona <br>     Estado: Estado   </div> </body> </html>");
+        LblHist4.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
-        LblHist3.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
-        LblHist3.setText("<html> <head>   <style>     div {       margin: 20px; /* Espacio alrededor del elemento div */     }   </style> </head> <body>   <div>     Entrada: Entrada<br>     Zona: Zona <br>     Estado: Estado   </div> </body> </html>");
-        LblHist3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        LblHist3.setBackground(new java.awt.Color(255, 255, 255));
+        LblHist3.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        LblHist3.setText("<html> <head>   <style>     div {  margin: 20px;  }   </style> </head> <body>   <div>     <b>Entrada: Entrada</b><br>     Zona: Zona <br>     Estado: Estado   </div> </body> </html>");
+        LblHist3.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
-        LblHist2.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
-        LblHist2.setText("<html> <head>   <style>     div {       margin: 20px; /* Espacio alrededor del elemento div */     }   </style> </head> <body>   <div>     Entrada: Entrada<br>     Zona: Zona <br>     Estado: Estado   </div> </body> </html>");
-        LblHist2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        LblHist2.setBackground(new java.awt.Color(255, 255, 255));
+        LblHist2.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        LblHist2.setText("<html> <head>   <style>     div { margin: 20px; }   </style> </head> <body>   <div>     <b>Entrada: Entrada</b> <br>     Zona: Zona <br>     Estado: Estado   </div> </body> </html>");
+        LblHist2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -95,9 +99,9 @@ public class PnlMisEntradas extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel LblHist1;
-    private javax.swing.JLabel LblHist2;
-    private javax.swing.JLabel LblHist3;
+    public javax.swing.JLabel LblHist1;
+    public javax.swing.JLabel LblHist2;
+    public javax.swing.JLabel LblHist3;
     private javax.swing.JLabel LblHist4;
     private javax.swing.JLabel LblTitulo;
     // End of variables declaration//GEN-END:variables
