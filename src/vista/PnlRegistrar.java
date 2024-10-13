@@ -14,6 +14,7 @@ public class PnlRegistrar extends javax.swing.JPanel {
      * Creates new form PnlInicioSesion
      */
     public PnlRegistrar() {
+        setSize(450, 620);
         initComponents();
     }
 
@@ -42,6 +43,9 @@ public class PnlRegistrar extends javax.swing.JPanel {
         TxtCvv = new javax.swing.JTextField();
         LblCvv = new javax.swing.JLabel();
         TxtClave = new javax.swing.JPasswordField();
+        LblRegresar = new javax.swing.JLabel();
+
+        setPreferredSize(new java.awt.Dimension(450, 620));
 
         BtnCrearCuenta.setFont(new java.awt.Font("Arial Black", 0, 16)); // NOI18N
         BtnCrearCuenta.setText("Crear Cuenta");
@@ -70,42 +74,48 @@ public class PnlRegistrar extends javax.swing.JPanel {
         LblCvv.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
         LblCvv.setText("CVV:");
 
+        LblRegresar.setText("<html><u>Volver</u><html>");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(LblNombre)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(TxtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(TxtApellidos, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(LblDni, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(TxtDni, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(LblClave, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(LblNumeroTarjeta, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(TxtNumeroTarjeta, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(LblFechaExpiracion, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(TxtFechaExpiracion, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(LblCvv, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(TxtCvv, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(TxtClave, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addComponent(LblApellidos))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(96, 96, 96)
-                            .addComponent(BtnCrearCuenta, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(123, 123, 123)
-                            .addComponent(LblRegistroUsuario))))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(96, 96, 96)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(LblNombre)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(TxtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(TxtApellidos, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(LblDni, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(TxtDni, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(LblClave, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(LblNumeroTarjeta, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(TxtNumeroTarjeta, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(LblFechaExpiracion, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(TxtFechaExpiracion, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(LblCvv, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(TxtCvv, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(TxtClave, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(BtnCrearCuenta, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(LblApellidos)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addComponent(LblRegresar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(LblRegistroUsuario)
+                        .addGap(30, 30, 30)))
                 .addContainerGap(99, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(17, 17, 17)
-                .addComponent(LblRegistroUsuario)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(LblRegistroUsuario)
+                    .addComponent(LblRegresar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(LblNombre)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -134,15 +144,15 @@ public class PnlRegistrar extends javax.swing.JPanel {
                 .addComponent(LblCvv)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(TxtCvv, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 29, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
                 .addComponent(BtnCrearCuenta, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(33, 33, 33))
+                .addContainerGap(21, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton BtnCrearCuenta;
+    public javax.swing.JButton BtnCrearCuenta;
     private javax.swing.JLabel LblApellidos;
     private javax.swing.JLabel LblClave;
     private javax.swing.JLabel LblCvv;
@@ -151,6 +161,7 @@ public class PnlRegistrar extends javax.swing.JPanel {
     private javax.swing.JLabel LblNombre;
     private javax.swing.JLabel LblNumeroTarjeta;
     private javax.swing.JLabel LblRegistroUsuario;
+    public javax.swing.JLabel LblRegresar;
     private javax.swing.JTextField TxtApellidos;
     private javax.swing.JPasswordField TxtClave;
     private javax.swing.JTextField TxtCvv;

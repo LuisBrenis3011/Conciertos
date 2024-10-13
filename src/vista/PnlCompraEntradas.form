@@ -15,7 +15,7 @@
     </Property>
     <Property name="name" type="java.lang.String" value="" noResource="true"/>
     <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[400, 620]"/>
+      <Dimension value="[450, 620]"/>
     </Property>
   </Properties>
   <AuxValues>
@@ -33,34 +33,40 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace min="0" pref="71" max="32767" attributes="0"/>
-              <Component id="BtnPagar" min="-2" pref="256" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                  <Component id="LblTotalAPagar" pref="328" max="32767" attributes="0"/>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="LblPrecioUnitario" min="-2" pref="158" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="LblPrecio" min="-2" pref="79" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="LblCantidadDeEntradas" alignment="0" min="-2" pref="184" max="-2" attributes="0"/>
-                  <Component id="LblPrecioUnitario2" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
-                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                      <Component id="LblCompraEntrada" min="-2" pref="158" max="-2" attributes="0"/>
-                      <Group type="102" attributes="0">
-                          <Component id="LblZonaSeleccionada" min="-2" pref="158" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="LblZona" min="-2" pref="79" max="-2" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="LblTotalAPagar" pref="328" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="LblPrecioUnitario" min="-2" pref="158" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="LblPrecio" min="-2" pref="79" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="LblCantidadDeEntradas" alignment="0" min="-2" pref="184" max="-2" attributes="0"/>
+                          <Component id="LblPrecioUnitario2" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="LblCompraEntrada" min="-2" pref="158" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="LblZonaSeleccionada" min="-2" pref="158" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="LblZona" min="-2" pref="79" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="TxtCantidad" alignment="0" pref="328" max="32767" attributes="0"/>
+                          <Component id="TxtTarjeta" alignment="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
-                  <Component id="TxtCantidad" alignment="0" pref="328" max="32767" attributes="0"/>
-                  <Component id="TxtTarjeta" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="BtnRegistrarTarjeta" min="-2" pref="256" max="-2" attributes="0"/>
+                          <Component id="BtnPagar" min="-2" pref="256" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
               </Group>
-              <EmptySpace pref="35" max="32767" attributes="0"/>
+              <EmptySpace pref="85" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -89,9 +95,11 @@
               <Component id="LblPrecioUnitario2" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
               <Component id="TxtTarjeta" min="-2" pref="35" max="-2" attributes="0"/>
-              <EmptySpace pref="67" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
               <Component id="BtnPagar" min="-2" pref="35" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="BtnRegistrarTarjeta" min="-2" pref="35" max="-2" attributes="0"/>
+              <EmptySpace pref="31" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -232,6 +240,14 @@
     <Component class="javax.swing.JButton" name="BtnPagar">
       <Properties>
         <Property name="text" type="java.lang.String" value="Pagar"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="BtnRegistrarTarjeta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registrar tarjeta"/>
       </Properties>
     </Component>
   </SubComponents>

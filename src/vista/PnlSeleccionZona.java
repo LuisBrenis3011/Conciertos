@@ -14,6 +14,7 @@ public class PnlSeleccionZona extends javax.swing.JPanel {
      * Creates new form seleccionZona
      */
     public PnlSeleccionZona() {
+        setSize(450, 620);
         initComponents();
     }
 
@@ -31,7 +32,7 @@ public class PnlSeleccionZona extends javax.swing.JPanel {
         BtnZonaGeneral = new javax.swing.JButton();
         BtnZonaVip = new javax.swing.JButton();
 
-        setPreferredSize(new java.awt.Dimension(400, 620));
+        setPreferredSize(new java.awt.Dimension(450, 620));
 
         LblZonas.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
         LblZonas.setText("SELECCIONAR ZONA");
@@ -55,29 +56,30 @@ public class PnlSeleccionZona extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(95, 95, 95)
-                .addComponent(LblZonas)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(39, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(BtnZonaVip, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(BtnZonaGeneral, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(BtnZonaPreferencial, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(36, 36, 36))
+                    .addComponent(BtnZonaPreferencial, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
+                            .addGap(104, 104, 104)
+                            .addComponent(LblZonas))
+                        .addGroup(layout.createSequentialGroup()
+                            .addGap(60, 60, 60)
+                            .addComponent(BtnZonaVip, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(65, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(30, 30, 30)
+                .addGap(31, 31, 31)
                 .addComponent(LblZonas)
-                .addGap(48, 48, 48)
+                .addGap(46, 46, 46)
                 .addComponent(BtnZonaVip, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(72, 72, 72)
+                .addGap(73, 73, 73)
                 .addComponent(BtnZonaPreferencial, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(77, 77, 77)
+                .addGap(76, 76, 76)
                 .addComponent(BtnZonaGeneral, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(97, Short.MAX_VALUE))
+                .addContainerGap(98, Short.MAX_VALUE))
         );
 
         getAccessibleContext().setAccessibleName("PnlNombre");
@@ -89,9 +91,9 @@ public class PnlSeleccionZona extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton BtnZonaGeneral;
-    private javax.swing.JButton BtnZonaPreferencial;
-    private javax.swing.JButton BtnZonaVip;
+    public javax.swing.JButton BtnZonaGeneral;
+    public javax.swing.JButton BtnZonaPreferencial;
+    public javax.swing.JButton BtnZonaVip;
     private javax.swing.JLabel LblZonas;
     // End of variables declaration//GEN-END:variables
 }

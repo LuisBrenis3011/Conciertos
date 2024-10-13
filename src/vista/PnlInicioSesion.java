@@ -14,6 +14,7 @@ public class PnlInicioSesion extends javax.swing.JPanel {
      * Creates new form PnlRegistrar
      */
     public PnlInicioSesion() {
+        setSize(450, 620);
         initComponents();
     }
 
@@ -35,6 +36,8 @@ public class PnlInicioSesion extends javax.swing.JPanel {
         LblClave = new javax.swing.JLabel();
         BtnClave = new javax.swing.JPasswordField();
 
+        setBackground(new java.awt.Color(255, 255, 255));
+        setForeground(new java.awt.Color(255, 0, 51));
         setPreferredSize(new java.awt.Dimension(450, 620));
 
         LblInicioDeSesion.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
@@ -104,8 +107,8 @@ public class PnlInicioSesion extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPasswordField BtnClave;
-    private javax.swing.JButton BtnIngresar;
-    private javax.swing.JButton BtnRegistrar;
+    public javax.swing.JButton BtnIngresar;
+    public javax.swing.JButton BtnRegistrar;
     private javax.swing.JLabel LblClave;
     private javax.swing.JLabel LblDni;
     private javax.swing.JLabel LblInicioDeSesion;

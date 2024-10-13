@@ -45,13 +45,12 @@ public class Persona {
         return result;
     }
 
-    
     public boolean anularVenta(Venta venta) {
         boolean result = true;
         venta.anular();
         return true;
     }
-    
+
     //Getters y Setters
     public String getNombre() {
         return nombre;

@@ -14,6 +14,7 @@ public class PnlConciertos extends javax.swing.JPanel {
      * Creates new form conciertos
      */
     public PnlConciertos() {
+        setSize(450, 620);
         initComponents();
     }
 

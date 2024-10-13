@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[450, 620]"/>
+    </Property>
+  </Properties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
@@ -17,34 +22,35 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="LblNombre" min="-2" max="-2" attributes="0"/>
-                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                          <Component id="TxtNombre" min="-2" pref="255" max="-2" attributes="0"/>
-                          <Component id="TxtApellidos" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
-                          <Component id="LblDni" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="TxtDni" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
-                          <Component id="LblClave" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="LblNumeroTarjeta" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="TxtNumeroTarjeta" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
-                          <Component id="LblFechaExpiracion" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="TxtFechaExpiracion" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
-                          <Component id="LblCvv" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="TxtCvv" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
-                          <Component id="TxtClave" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="LblNombre" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="TxtNombre" min="-2" pref="255" max="-2" attributes="0"/>
+                              <Component id="TxtApellidos" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
+                              <Component id="LblDni" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtDni" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
+                              <Component id="LblClave" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="LblNumeroTarjeta" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtNumeroTarjeta" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
+                              <Component id="LblFechaExpiracion" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtFechaExpiracion" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
+                              <Component id="LblCvv" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtCvv" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
+                              <Component id="TxtClave" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
+                              <Component id="BtnCrearCuenta" alignment="0" min="-2" pref="255" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="LblApellidos" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <Component id="LblApellidos" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
-                          <Component id="BtnCrearCuenta" min="-2" pref="255" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
-                          <Component id="LblRegistroUsuario" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="LblRegresar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="LblRegistroUsuario" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace pref="99" max="32767" attributes="0"/>
@@ -55,7 +61,10 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
-              <Component id="LblRegistroUsuario" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="LblRegistroUsuario" min="-2" max="-2" attributes="0"/>
+                  <Component id="LblRegresar" min="-2" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="LblNombre" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
@@ -84,9 +93,9 @@
               <Component id="LblCvv" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="TxtCvv" min="-2" pref="35" max="-2" attributes="0"/>
-              <EmptySpace pref="29" max="32767" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="BtnCrearCuenta" min="-2" pref="35" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <EmptySpace pref="21" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -109,6 +118,9 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Crear Cuenta"/>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JLabel" name="LblRegistroUsuario">
       <Properties>
@@ -177,6 +189,14 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JPasswordField" name="TxtClave">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblRegresar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;u&gt;Volver&lt;/u&gt;&lt;html&gt;"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
   </SubComponents>
 </Form>
