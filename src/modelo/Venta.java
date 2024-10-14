@@ -20,17 +20,17 @@ public class Venta {
         this.entrada = entrada;
     }
 
-    public Venta(Date fecha, double monto, String nombre, String apellidos, String dni, Tarjeta tarjeta, int numero) {
+    public Venta(Date fecha, double monto, String nombre, String apellidos, String dni, String contrasena, Tarjeta tarjeta, int numero) {
         this.fecha = fecha;
         this.monto = monto;
-        this.persona = new Persona(nombre, apellidos, dni, tarjeta);
+        this.persona = new Persona(nombre, apellidos, dni, contrasena, tarjeta);
         this.entrada = new Entrada(numero);
     }
-
+    
     public boolean anular() {
         return this.entrada.liberar();
     }
-
+    
     public Date getFecha() {
         return fecha;
     }

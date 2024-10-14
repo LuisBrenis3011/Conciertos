@@ -1,16 +1,13 @@
 package modelo;
-
 import java.util.Date;
-import modelo.Zona;
-
 /**
  * @author Leonidas Garcia Lescano
  */
 public class Concierto {
 
     private String nombre;
-    Date fecha;
-    Zona[] zonas;
+    private Date fecha;
+    private Zona[] zonas;
 
     public Concierto(String nombre, Date fecha) {
         this.nombre = nombre;
@@ -57,6 +54,7 @@ public class Concierto {
         }
     }
 
+    
     public String getNombre() {
         return nombre;
     }

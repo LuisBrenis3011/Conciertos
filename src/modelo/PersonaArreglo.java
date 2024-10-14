@@ -26,7 +26,16 @@ public class PersonaArreglo {
         return insertado;
 
     }
-
+    
+    public Persona buscarPersona(String dni){
+        for (Persona Persona : Personas) {
+            if (Persona.getDni().equals(dni)) {
+                return Persona;
+            }
+        }
+        return null;
+    }
+    
     public void EliminarPersona(String Persona) {//recibe el nombre del Persona
         boolean eliminado = false;
         for (int i = 0; i < Personas.length; i++) {

@@ -15,6 +15,7 @@ public class Zona {
         this.capacidad = capacidad;
         this.precio = precio;
         this.entradas = new Entrada[capacidad];
+        generarEntradas();
     }
 
     private boolean generarEntradas() {

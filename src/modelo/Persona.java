@@ -1,5 +1,7 @@
 package modelo;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -8,13 +10,16 @@ import java.util.Date;
 public class Persona {
 
     private String nombre, apellidos, dni, contrasena;
-    Tarjeta tarjeta;
+    private Tarjeta tarjeta;
+    private Venta[] historialVentas;
+    private int ventaCount = 0;
 
     //Constructores
-    public Persona(String nombre, String apellidos, String dni, Tarjeta tarjeta) {
+    public Persona(String nombre, String apellidos, String dni, String contrasena, Tarjeta tarjeta) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.dni = dni;
+        this.contrasena = contrasena;
         this.tarjeta = tarjeta;
     }
 
@@ -30,28 +35,52 @@ public class Persona {
         this.apellidos = apellidos;
         this.dni = dni;
         this.contrasena = contrasena;
+        this.historialVentas = new Venta[4];
+        this.ventaCount = 0;
+        this.tarjeta = null;
     }
 
     //Metodos propios
-    public boolean registrarTarjeta(int numero, int CV, String nombre_trj, Date fecha) {
+    public boolean registrarTarjeta(int numero, int CV, String nombre_trj, String fechastr) {
         boolean result = true;
+        SimpleDateFormat formato = new SimpleDateFormat("MM/yy");
+        try{
+        Date fecha = formato.parse(fechastr);
         this.tarjeta = new Tarjeta(numero, CV, nombre_trj, fecha);
         return result;
+        } catch (ParseException e){
+             System.out.println("Error al convertir la fecha: " + e.getMessage());
+             return !result;
+        }
     }
 
     public boolean eliminarTarjeta() {
         boolean result = true;
+        if (tarjeta != null){
         this.tarjeta = null;
         return result;
+        }
+        return !result;
     }
 
     public boolean anularVenta(Venta venta) {
         boolean result = true;
         venta.anular();
-        return true;
+        return result;
     }
 
-    //Getters y Setters
+    public boolean comprar(double monto) {
+        if (ventaCount < historialVentas.length) {
+            historialVentas[ventaCount] = new Venta(new Date(), monto, this, null);
+            ventaCount++;
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+//Getters y Setters
+
     public String getNombre() {
         return nombre;
     }
